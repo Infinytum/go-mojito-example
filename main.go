@@ -1,9 +1,6 @@
 package main
 
 import (
-	_ "github.com/infinytum/go-scalar/autoload"
-	"github.com/infinytum/go-scalar/service/logger"
-
 	"github.com/infinytum/go-scalar"
 	"github.com/infinytum/go-scalar-example/handlers"
 )
@@ -11,9 +8,9 @@ import (
 func init() {
 	// Override the default zerolog logger with the
 	// builtin logger implementation
-	// We'd suggest not doing this though as the logs will look awful
+	// We'd suggest not doing this though as the logs will look awful, you will see what we mean.
 	scalar.Register(func() scalar.Logger {
-		return logger.NewBuiltin()
+		return scalar.NewBuiltinLogger()
 	}, true)
 }
 

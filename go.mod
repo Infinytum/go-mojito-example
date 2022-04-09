@@ -3,12 +3,12 @@ module github.com/infinytum/go-scalar-example
 go 1.18
 
 require (
-	github.com/golobby/container/v3 v3.1.6
-	github.com/infinytum/go-scalar v0.0.0-20220404212812-a8a2a37aabab
+	github.com/golobby/container/v3 v3.1.7
+	github.com/infinytum/go-scalar v1.0.2-0.20220409002332-2e67cb0cf4df
 )
 
 require (
-	github.com/infinytum/raymond v1.1.1-0.20220330181854-d7f5aa5685f3 // indirect
+	github.com/infinytum/raymond/v2 v2.0.5 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
 	github.com/rs/zerolog v1.26.1 // indirect
 	github.com/tmthrgd/go-hex v0.0.0-20190904060850-447a3041c3bc // indirect
