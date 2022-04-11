@@ -1,12 +1,11 @@
 github.com/coreos/go-systemd/v22 v22.3.2/go.mod h1:Y58oyj3AT4RCenI/lSvhwexgC+NSVTIJ3seZv2GcEnc=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
-github.com/davecgh/go-spew v1.1.1/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/godbus/dbus/v5 v5.0.4/go.mod h1:xhWf0FNVPg57R7Z0UbKHbJfkEywrmjJnf7w5xrFpKfA=
 github.com/golobby/container/v3 v3.1.7 h1:9DpSmlDsJHL44y+B70H9Q1nTvc7nZKVb+fB/K3blhWc=
 github.com/golobby/container/v3 v3.1.7/go.mod h1:u2TcQP8r0WJKHPNZxUU8Mv6/35SiCpmC07l8wPtNn0k=
-github.com/infinytum/go-scalar v1.0.2-0.20220409002332-2e67cb0cf4df h1:C2xtLZIirjn0HKc4oygRmyIbbDpVqU1TmZWbDB7aprI=
-github.com/infinytum/go-scalar v1.0.2-0.20220409002332-2e67cb0cf4df/go.mod h1:sKHis1j7tJ69NN1ce0lanFXuPfiiEYow1jUJHnDYgL8=
+github.com/infinytum/go-mojito v1.2.0 h1:j3tbCp4ioqW+Y5ptcfASyVR6utVl/y1wtR6HiiTDPWE=
+github.com/infinytum/go-mojito v1.2.0/go.mod h1:QWrDy3xeRzPp+V8WGWQvv+QhoCVM8M4E3p194aJHwl4=
 github.com/infinytum/raymond/v2 v2.0.5 h1:sdbPMfhNnNI9c5gxDPfbgoFYlwTgg4UlSjxqvYnSodY=
 github.com/infinytum/raymond/v2 v2.0.5/go.mod h1:XWq3aImVLUPbCm+hFxmqjIMaBm10z+WjtxLtR0P8oVs=
 github.com/jinzhu/inflection v1.0.0 h1:K317FqzuhWc8YvSVlFMCCUb36O/S9MCKRDI7QkRKD/E=
@@ -61,6 +60,5 @@ golang.org/x/xerrors v0.0.0-20191011141410-1b5146add898/go.mod h1:I/5z698sn9Ka8T
 golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1/go.mod h1:I/5z698sn9Ka8TeJc9MKroUUfqBBauWjQqLJ2OPfmY0=
 gopkg.in/check.v1 v0.0.0-20161208181325-20d25e280405/go.mod h1:Co6ibVJAznAaIkqp8huTwlJQCZ016jof/cbN4VW5Yz0=
 gopkg.in/yaml.v2 v2.4.0 h1:D8xgwECY7CYvx+Y2n4sBz93Jn9JRvxdiyyo8CTfuKaY=
-gopkg.in/yaml.v2 v2.4.0/go.mod h1:RDklbk79AGWmwhnvt/jBztapEOGDOx6ZbXqjP6csGnQ=
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c h1:dUUwHk2QECo/6vqA44rthZ8ie2QXMNeKRTHCNY2nXvo=
 gopkg.in/yaml.v3 v3.0.0-20200313102051-9f266ea9e77c/go.mod h1:K4uyk7z7BCEPqu6E+C64Yfv1cQ7kz7rIZviUmN+EgEM=

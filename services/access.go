@@ -4,11 +4,11 @@ import (
 	"time"
 
 	"github.com/golobby/container/v3"
-	"github.com/infinytum/go-scalar"
+	"github.com/infinytum/go-mojito"
 )
 
 func init() {
-	scalar.Register(func() Access {
+	mojito.Register(func() Access {
 		access := Access{}
 		container.Fill(&access)
 		return access
@@ -18,7 +18,7 @@ func init() {
 var accessTimeCacheKey = "lastAccessTime"
 
 type Access struct {
-	Cache scalar.Cache `container:"type"`
+	Cache mojito.Cache `container:"type"`
 }
 
 func (s *Access) LastVisitedAt() time.Time {

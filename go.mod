@@ -1,10 +1,10 @@
-module github.com/infinytum/go-scalar-example
+module github.com/infinytum/go-mojito-example
 
 go 1.18
 
 require (
 	github.com/golobby/container/v3 v3.1.7
-	github.com/infinytum/go-scalar v1.0.2-0.20220409002332-2e67cb0cf4df
+	github.com/infinytum/go-mojito v1.2.0
 )
 
 require (
